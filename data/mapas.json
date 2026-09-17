@@ -9,13 +9,18 @@
       "activo": true,
       "versiones": [
         {
+          "periodo": "202609",
+          "etiqueta": "Septiembre 2026",
+          "archivo": "mapas/cohortes/2026/mapa_cohortes_202609.html"
+        },
+        {
           "periodo": "202608",
           "etiqueta": "Agosto 2026",
           "archivo": "mapas/cohortes/2026/mapa_cohortes_202608.html"
         },
         {
           "periodo": "202607",
-          "etiqueta": "Septiembre 2026",
+          "etiqueta": "Julio 2026",
           "archivo": "mapas/cohortes/2026/mapa_cohortes_202607.html"
         }
       ]
