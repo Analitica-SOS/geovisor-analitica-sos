@@ -1,0 +1,37 @@
+{
+  "nombre": "Geovisor SOS",
+  "descripcion": "Desarrollos de analítica geoespacial de SOS",
+  "proyectos": [
+    {
+      "id": "cohortes",
+      "nombre": "Cohortes y riesgos",
+      "descripcion": "Visualización geoespacial de la población y cohortes priorizadas de SOS.",
+      "activo": true,
+      "versiones": [
+        {
+          "periodo": "202608",
+          "etiqueta": "Agosto 2026",
+          "archivo": "mapas/cohortes/2026/mapa_cohortes_202608.html"
+        },
+        {
+          "periodo": "202607",
+          "etiqueta": "Septiembre 2026",
+          "archivo": "mapas/cohortes/2026/mapa_cohortes_202607.html"
+        }
+      ]
+    },
+    {
+      "id": "afectaciones-sismo",
+      "nombre": "Afectaciones por sismo",
+      "descripcion": "Visualización geoespacial de las afectaciones asociadas al sismo del 10 de agosto, acotadas al territorio con cobertura de SOS.",
+      "activo": true,
+      "versiones": [
+        {
+          "periodo": "20260810",
+          "etiqueta": "10 de agosto de 2026",
+          "archivo": "mapas/afectaciones-sismo/2026/mapa_afectaciones_sismo_20260810.html"
+        }
+      ]
+    }
+  ]
+}

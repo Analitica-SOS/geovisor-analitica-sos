@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Geovisor de desarrollos de analítica geoespacial de SOS"
+    >
+
+    <title>Geovisor SOS</title>
+
+    <link
+        rel="stylesheet"
+        href="./assets/css/styles.css"
+    >
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__content">
+            <div>
+                <h1>Geovisor SOS</h1>
+
+                <p>
+                    Desarrollos de analítica geoespacial
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+
+        <section class="intro">
+            <h2>Productos geoespaciales</h2>
+
+            <p>
+                Consulta los diferentes desarrollos de analítica
+                geoespacial disponibles y selecciona el período
+                de información que deseas visualizar.
+            </p>
+        </section>
+
+
+        <section
+            id="proyectos"
+            class="projects"
+        >
+        </section>
+
+
+        <section
+            id="visor-container"
+            class="viewer hidden"
+        >
+
+            <div class="viewer__header">
+
+                <div>
+                    <h2 id="visor-title"></h2>
+
+                    <p id="visor-period"></p>
+                </div>
+
+                <button
+                    id="refresh-viewer"
+                    class="button button--secondary"
+                    type="button"
+                >
+                    Actualizar mapa
+                </button>
+                
+                <button
+                    id="close-viewer"
+                    class="button button--secondary"
+                    type="button"
+                >
+                    Cerrar mapa
+                </button>
+
+            </div>
+
+
+            <iframe
+                id="map-viewer"
+                class="viewer__iframe"
+                title="Mapa geoespacial SOS"
+                loading="lazy"
+            >
+            </iframe>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>
+            SOS · Analítica Geoespacial
+        </p>
+    </footer>
+
+
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
