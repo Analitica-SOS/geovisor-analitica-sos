@@ -1,5 +1,5 @@
 {
-  "nombre": "Geovisor SOS",
+  "nombre": "Geovisor Analitica SOS",
   "descripcion": "Desarrollos de analítica geoespacial de SOS",
   "proyectos": [
     {
@@ -35,6 +35,11 @@
           "periodo": "20260810",
           "etiqueta": "10 de agosto de 2026",
           "archivo": "mapas/afectaciones-sismo/2026/mapa_afectaciones_sismo_20260810.html"
+        },
+        {
+          "periodo": "20260902",
+          "etiqueta": "2 de septiembre de 2026",
+          "archivo": "mapas/afectaciones-sismo/2026/mapa_afectaciones_sismo_20260902.html"
         }
       ]
     }
