@@ -9,11 +9,6 @@
       "activo": true,
       "versiones": [
         {
-          "periodo": "202609",
-          "etiqueta": "Septiembre 2026",
-          "archivo": "mapas/cohortes/2026/mapa_cohortes_202609.html"
-        },
-        {
           "periodo": "202608",
           "etiqueta": "Agosto 2026",
           "archivo": "mapas/cohortes/2026/mapa_cohortes_202608.html"
@@ -22,6 +17,16 @@
           "periodo": "202607",
           "etiqueta": "Julio 2026",
           "archivo": "mapas/cohortes/2026/mapa_cohortes_202607.html"
+        },
+        {
+          "periodo": "202606",
+          "etiqueta": "Junio 2026",
+          "archivo": "mapas/cohortes/2026/mapa_cohortes_202606.html"
+        },
+        {
+          "periodo": "202605",
+          "etiqueta": "Mayo 2026",
+          "archivo": "mapas/cohortes/2026/mapa_cohortes_202605.html"
         }
       ]
     },
@@ -35,11 +40,6 @@
           "periodo": "20260810",
           "etiqueta": "10 de agosto de 2026",
           "archivo": "mapas/afectaciones-sismo/2026/mapa_afectaciones_sismo_20260810.html"
-        },
-        {
-          "periodo": "20260902",
-          "etiqueta": "2 de septiembre de 2026",
-          "archivo": "mapas/afectaciones-sismo/2026/mapa_afectaciones_sismo_20260902.html"
         }
       ]
     }
